@@ -111,19 +111,6 @@ body{
     .sub_titulos{
         margin: 50px 0 10px 10px;
     }
-    @media only screen and (max-width: 615px){
-
-        .parrafo{
-            clear: both;
-        }
-
-        .video{
-            margin: 0px 13%;
-            width: 70%;
-            height: 200px;
-        }
-
-    }
 
 /*ESTILOS SOLO PARA EL BOTON*/
 
@@ -194,7 +181,7 @@ body{
 
     .barra:hover{
         /*Tamaño cuando el cursor señale la barra*/
-        width: 50%;
+        width: 60%;
         height: 100vh;
         padding: 0;
         /*Color*/
@@ -236,5 +223,23 @@ body{
         font-size: 25px;
         padding: 30px 0px; 
         background: rgba(23, 78, 112, 0.98);  
+    }
+
+}
+
+@media only screen and (max-width: 615px){
+
+    body{
+        background-color: yellow;
+    }
+
+    .parrafo{
+        clear: both;
+    }
+
+    .video{
+        margin: 0px 13%;
+        width: 70%;
+        height: 200px;
     }
 }
